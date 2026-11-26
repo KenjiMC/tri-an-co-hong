@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>Gửi cô Hồng</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Be+Vietnam+Pro:wght@400;500;600&display=swap"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <svg width="0" height="0" style="position: absolute" aria-hidden="true">
+      <defs>
+        <symbol id="fl" viewBox="-50 -50 100 100">
+          <g fill="#D8342C">
+            <ellipse cy="-26" rx="15" ry="24" />
+            <ellipse cy="-26" rx="15" ry="24" transform="rotate(72)" />
+            <ellipse cy="-26" rx="15" ry="24" transform="rotate(144)" />
+            <ellipse cy="-26" rx="15" ry="24" transform="rotate(216)" />
+            <ellipse cy="-26" rx="15" ry="24" transform="rotate(288)" />
+          </g>
+          <g fill="#F6C945"><circle r="7" /></g>
+          <g stroke="#F6C945" stroke-width="2" stroke-linecap="round">
+            <path d="M0-8V-20M8-3L19-8M5 7L12 17M-5 7L-12 17M-8-3L-19-8" />
+          </g>
+        </symbol>
+        <symbol id="cam" viewBox="0 0 24 24">
+          <path
+            fill="currentColor"
+            d="M9 3 7.2 5H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-3.2L15 3H9zm3 5a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"
+          />
+        </symbol>
+      </defs>
+    </svg>
+    <audio id="bgm" loop preload="auto" src="assets/audio/nhac-nen.mp3"></audio>
+    <div class="cover" id="cover" hidden role="button" tabindex="0">
+      <svg aria-hidden="true"><use href="#fl" /></svg>
+      <p>Gửi cô Hồng</p>
+      <span>Chạm vào đây để mở thư và nghe nhạc</span>
+    </div>
+    <div id="petals" aria-hidden="true"></div>
+    <div id="stars" aria-hidden="true"></div>
+    <div id="prog"></div>
+    <div id="glow"></div>
+    <main>
+      <header>
+        <svg class="flower f1" aria-hidden="true"><use href="#fl" /></svg>
+        <svg class="flower f2" aria-hidden="true"><use href="#fl" /></svg>
+        <span class="badge">Chúc mừng 20/11 · Ngày Nhà giáo Việt Nam</span>
+        <h1><span id="t" class="cursor"></span></h1>
+        <p class="sub">
+          Nhân ngày 20/11, cả lớp xin gửi đến cô những kỷ niệm của năm lớp 10.
+        </p>
+      </header>
+
+      <section class="letter rv" aria-label="Thư gửi cô">
+        <div class="seal" aria-hidden="true">20/11</div>
+        <div contenteditable="true" spellcheck="false">
+          <p>Kính gửi cô Hồng,</p>
+          <p>
+            Từ ngày bước vào lớp 10, cô là người dẫn dắt chúng em làm quen với
+            ngôi trường mới. Lúc chúng em bỡ ngỡ, cô chỉ bảo. Lúc chúng em chùn
+            bước, cô tin chúng em làm được. Mỗi bức ảnh ở bên dưới là một khoảnh
+            khắc đáng nhớ của lớp mình bên cô.
+          </p>
+          <p>
+            Cả lớp cảm ơn cô vì đã đồng hành cùng chúng em. Mong cô tiếp tục ở
+            cạnh chúng em trong những năm học tới. Nhân ngày Nhà giáo Việt Nam
+            20/11, cả lớp chúc cô luôn mạnh khỏe, hạnh phúc và thật nhiều niềm
+            vui bên học trò.
+          </p>
+          <p class="sign">Cả lớp, học trò của cô</p>
+        </div>
+      </section>
+      <button class="love" id="love" type="button">
+        Gửi yêu thương đến cô
+      </button>
+
+      <section class="sec rv">
+        <div class="title">
+          <h2>Dây phơi kỷ niệm</h2>
+          <p>Những khoảnh khắc cả lớp nhớ nhất</p>
+        </div>
+        <div class="string" id="string"></div>
+      </section>
+
+      <section class="sec rv">
+        <div class="title">
+          <h2>Bức tường ảnh và video của lớp</h2>
+          <p>Ảnh và video của cả lớp bên cô</p>
+        </div>
+        <div class="wall" id="wall"></div>
+      </section>
+
+      <section class="sec rv">
+        <div class="title"><h2>Những điều cả lớp nhớ mãi</h2></div>
+        <div class="notes">
+          <div class="note">
+            <h3>Giờ chào cờ</h3>
+            <p contenteditable="true" spellcheck="false">
+              Buổi sáng thứ Hai, cô ngồi trên và dõi theo lớp.
+            </p>
+          </div>
+          <div class="note">
+            <h3>Những lần cô nhắc</h3>
+            <p contenteditable="true" spellcheck="false">
+              Có lúc cả lớp ồn ào, cô đôi khi có tức giận và bực mình nhưng cô
+              vẫn yêu thương tụi em hết mức.
+            </p>
+          </div>
+          <div class="note">
+            <h3>Ngày đầu gặp cô</h3>
+            <p contenteditable="true" spellcheck="false">
+              Hôm đầu tiên gặp cô, cả lớp còn lạ lẫm và hơi ngại, nhưng nụ cười
+              của cô làm ai cũng yên tâm hẳn🥰.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="sec rv">
+        <div class="title">
+          <h2>Lời nhắn của từng bạn</h2>
+          <p>Mỗi bạn viết một mảnh giấy nhớ gửi cô</p>
+          <div class="bar">
+            <button type="button" id="addstick">Thêm mảnh giấy</button>
+          </div>
+        </div>
+        <div class="sticks" id="sticks"></div>
+      </section>
+
+      <footer class="rv">
+        <svg width="70" height="70" aria-hidden="true"><use href="#fl" /></svg>
+        <p class="big">Chúc cô một ngày 20/11 thật vui!</p>
+      </footer>
+    </main>
+
+    <div class="musicbox">
+      <button type="button" id="music" aria-pressed="false">
+        <span class="eq" aria-hidden="true"><i></i><i></i><i></i></span
+        ><span id="mt">Bật nhạc</span>
+      </button>
+    </div>
+    <div
+      class="nb"
+      id="nb"
+      role="dialog"
+      aria-modal="true"
+      aria-label="Đọc thư"
+    >
+      <button class="cl" type="button" aria-label="Đóng">×</button
+      ><button class="pv" type="button" aria-label="Thư trước">‹</button>
+      <div class="card">
+        <div class="body" id="nbody" tabindex="-1"></div>
+        <div class="cnt" id="ncnt"></div>
+      </div>
+      <button class="nx" type="button" aria-label="Thư sau">›</button>
+    </div>
+    <div class="lb" id="lb">
+      <button class="c" type="button" aria-label="Đóng">×</button
+      ><button class="p" type="button" aria-label="Ảnh trước">‹</button
+      ><img alt="" /><button class="n" type="button" aria-label="Ảnh sau">
+        ›
+      </button>
+    </div>
+
+    <script src="notes.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
