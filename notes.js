@@ -233,7 +233,7 @@ var NOTES = [
     name: "Bùi Vũ Minh Đức – học trò của cô",
     paras: [
       "Kính gửi cô Nguyễn Thúy Hồng - giáo viên chủ nhiệm của lớp 10 Địa",
-      "Trước hết, em xin cảm ơn cô vì những gì cô đã đóng góp và tận tụy với lớp trong suốt thời gian vừa qua bằng những tiết học thú vị, tuy nhiều kiến thức trọng tâm nhưng cô giảng rất đỗi tận tâm, khiến cho những buổi học không bị quá căng thẳng và nhàm chán. Trước đây trong suy nghĩ của con, môn Địa Lý chỉ cần học thuộc nhưng sau những buổi học của cô cùng với cô Hồng đã thay đổi hoàn toàn tư tưởng của con về môn học này, một môn học thú vị giúp chúng ta hiểu mọi thứ xung quanh chúng ta hơn và là tiền đề để giúp chúng em phát triển sau này",
+      "Trước hết, em xin cảm ơn cô vì những gì cô đã đóng góp và tận tụy với lớp trong suốt thời gian vừa qua bằng những tiết học thú vị, tuy nhiều kiến thức trọng tâm nhưng cô giảng rất đỗi tận tâm, khiến cho những buổi học không bị quá căng thẳng và nhàm chán. Trước đây trong suy nghĩ của con, môn Địa Lý chỉ cần học thuộc nhưng sau những buổi học của cô cùng với cô Liên đã thay đổi hoàn toàn tư tưởng của con về môn học này, một môn học thú vị giúp chúng ta hiểu mọi thứ xung quanh chúng ta hơn và là tiền đề để giúp chúng em phát triển sau này",
       "Và nhân dịp 20/11, em chúc cô Hồng ngày càng mạnh khỏe, xinh đẹp và ngày càng cống hiến với sự nghiệp “trồng người”. Chúc cô ngày càng thành đạt và gặt hái được nhiều thành công cùng với học trò của"
     ]
   },
