@@ -143,7 +143,7 @@ var NOTES = [
   {
     name: "Tường Lam cute",
     paras: [
-      "Xin chào cô Liên thân mến ạ :33",
+      "Xin chào cô Hồng thân mến ạ :33",
       "Con là Tường Lam-một thành viên của tập thể lớp 10 Địa. Con viết thư này để nhiệt liệt chào mừng ngày nhà giáo Việt Nam lần thứ 44 cũng như để tri ân những người giáo viên tận tuỵ đang và sẽ đồng hành cùng chúng con trong ròng rã ba năm tiếp theo…",
       "Lớp 10-Năm chúng con mới chân ướt chân ráo bước vào môi trường cấp 3 đầy những điều mới mẻ chưa được khám phá. Trong đó, chúng con làm quen được thêm nhiều những người bạn mới có cùng chí hướng, cùng bước đi trên con đường học tập đầy gian nan nhưng rồi lại mang đến cho chúng con nhiều hơn cả những thành quả vô cùng xứng đáng. Hay như câu ngạn ngữ Hy Lạp xưa “Rễ của học hành thì cay đắng nhưng quả của nó thì ngọt ngào”. Trong hành trình đó, có những người vẫn luôn âm thầm dìu dắt, hướng dẫn và cũng như nhiều lúc uốn nắn để chúng con được đi trên con đường ít chông gai nhất-đó chính là thầy cô.",
       "Paulo Coelho đã từng có một chia sẻ mà con vô cùng tâm đắc “Thầy cô là ai? Đó không phải là những người sẽ dạy dỗ mà chính là người truyền cảm hứng để sinh viên có thể nỗ lực hết mình khám phá những điều chưa biết”, qua đó, con thầm hiểu rằng con và các bạn đã rất may mắn khi được cả hai cô định hướng và đốc thúc mà tập trung, chú tâm vào việc theo đuổi nghiệp học.",
