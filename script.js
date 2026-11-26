@@ -13,45 +13,45 @@
 
   /* Ảnh trên "Dây phơi kỷ niệm" */
   var PS = [
-    ["assets/images/day-phoi-01.jpg", "Cô trong ngày sinh nhật đặc biệt"],
-    ["assets/images/day-phoi-02.jpg", "Cô bên chiếc bảng 10 Địa"],
-    ["assets/images/day-phoi-03.jpg", "Những khoảnh khắc đơn giản"],
-    ["assets/images/day-phoi-04.jpg", "Những buổi sinh hoạt lớp vui vẻ"],
-    ["assets/images/day-phoi-05.jpg", "Cô đi canh gác dữ dằn lắm đó 😬"],
+    ["./day-phoi-01.jpg", "Cô trong ngày sinh nhật đặc biệt"],
+    ["./day-phoi-02.jpg", "Cô bên chiếc bảng 10 Địa"],
+    ["./day-phoi-03.jpg", "Những khoảnh khắc đơn giản"],
+    ["./day-phoi-04.jpg", "Những buổi sinh hoạt lớp vui vẻ"],
+    ["./day-phoi-05.jpg", "Cô đi canh gác dữ dằn lắm đó 😬"],
   ];
 
   /* Ảnh trên "Bức tường ảnh" */
   var PW = [
-    ["assets/images/tuong-anh-01.jpg", "Lớp bên cô trong ngày sinh nhật"],
-    ["assets/images/tuong-anh-02.jpg", "Cả lớp trong ngày 20/10"],
-    ["assets/images/tuong-anh-03.jpg", "Cả lớp cùng cô ở hành lang"],
-    ["assets/images/tuong-anh-04.jpg", "Cả lớp trong ngày khai giảng"],
-    ["assets/images/tuong-anh-05.jpg", "Lễ kỷ niệm ngày Nhà giáo"],
-    ["assets/images/tuong-anh-06.jpg", "Cả lớp đứng nghiêm trong lớp học"],
-    ["assets/images/tuong-anh-07.jpg", "Tiết mục của lớp"],
-    ["assets/images/tuong-anh-08.jpg", "Toán ơi là Toán"],
-    ["assets/images/tuong-anh-09.jpg", "Hai bạn thả tim quý cô lắm đó💗💗"],
-    ["assets/images/tuong-anh-10.jpg", "Suỵt, im lặng nào🤫"],
-    ["assets/images/tuong-anh-11.jpg", "Khoảnh khắc nhí nhố"],
-    ["assets/images/tuong-anh-12.jpg", "Tạo dáng bên bức tường"],
-    ["assets/images/tuong-anh-13.jpg", "Giấc ngủ giữa giờ🥱"],
+    ["./tuong-anh-01.jpg", "Lớp bên cô trong ngày sinh nhật"],
+    ["./tuong-anh-02.jpg", "Cả lớp trong ngày 20/10"],
+    ["./tuong-anh-03.jpg", "Cả lớp cùng cô ở hành lang"],
+    ["./tuong-anh-04.jpg", "Cả lớp trong ngày khai giảng"],
+    ["./tuong-anh-05.jpg", "Lễ kỷ niệm ngày Nhà giáo"],
+    ["./tuong-anh-06.jpg", "Cả lớp đứng nghiêm trong lớp học"],
+    ["./tuong-anh-07.jpg", "Tiết mục của lớp"],
+    ["./tuong-anh-08.jpg", "Toán ơi là Toán"],
+    ["./tuong-anh-09.jpg", "Hai bạn thả tim quý cô lắm đó💗💗"],
+    ["./tuong-anh-10.jpg", "Suỵt, im lặng nào🤫"],
+    ["./tuong-anh-11.jpg", "Khoảnh khắc nhí nhố"],
+    ["./tuong-anh-12.jpg", "Tạo dáng bên bức tường"],
+    ["./tuong-anh-13.jpg", "Giấc ngủ giữa giờ🥱"],
   ];
 
   /* Video trên "Bức tường": [file video, ảnh bìa, chú thích] */
   var PV = [
     [
-      "assets/videos/video-01.mp4",
-      "assets/images/video-01-poster.jpg",
+      "./video-01.mp4",
+      "./video-01-poster.jpg",
       "Những khoảnh khắc trong ngày sinh nhật của cô",
     ],
     [
-      "assets/videos/video-02.mp4",
-      "assets/images/video-02-poster.jpg",
+      "./video-02.mp4",
+      "./video-02-poster.jpg",
       "Những ngày “chơi đùa” ngoài hành lang",
     ],
     [
-      "assets/videos/video-03.mp4",
-      "assets/images/video-03-poster.jpg",
+      "./video-03.mp4",
+      "./video-03-poster.jpg",
       "Chuẩn bị sinh nhật cô nè!",
     ],
   ];
