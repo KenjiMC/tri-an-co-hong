@@ -243,4 +243,11 @@ var NOTES = [
       "Nhân ngày 20/11, em chúc cô luôn vui vẻ, mạnh khỏe và gặp thật nhiều điều may mắn trong cuộc sống. Mong cô sẽ luôn giữ được sự nhiệt huyết, yêu đời và nguồn năng lượng tích cực của mình. Chúc cô không chỉ có những ngày đứng lớp thật vui mà cả những ngày bình thường cũng luôn ngập tràn niềm vui. Cảm ơn cô vì đã đồng hành và dành sự tận tâm cho chúng em. Tụi em sẽ cố gắng học tập để mang về giải nhất hsgqg môn địa lý đầu tiên cho trường THPT chuyên Lương Thế Vinh, đặc biệt là do cô dẫn dắt. Mong rằng mọi điều tốt đẹp nhất sẽ luôn đến với cô, không chỉ hôm nay mà còn trong thật nhiều ngày tháng về sau. ♥♥♥♥♥♥"
     ]
   },
+  {
+    name: "Hà Châu Anh",
+    paras: [
+      "Nhân ngày 20/11, em chúc cô Hồng luôn vui vẻ, xinh đẹp, trẻ trung và lúc nào cũng tràn đầy năng lượng ạ! Chúc cô có thật nhiều sức khỏe, luôn giữ được sự nhiệt huyết với nghề và đặc biệt là đủ kiên nhẫn để tiếp tục đồng hành cùng lớp 26ĐI – một tập thể đôi khi hơi ồn ào, hơi nghịch ngợm nhưng chắc chắn không bao giờ thiếu sự đáng yêu (theo một góc nhìn rất chủ quan ạ 😆)." 
+      "Mong cô luôn gặp nhiều điều tốt đẹp, ít phải đau đầu vì những trò nghịch ngợm của chúng em và có thật nhiều niềm vui mỗi ngày. Cảm ơn cô vì đã luôn quan tâm, chỉ bảo và chịu đựng chúng em trong suốt thời gian qua. Chúc cô 20/11 thật hạnh phúc ạ! ❤️"
+    ]
+  }, 
 ];
